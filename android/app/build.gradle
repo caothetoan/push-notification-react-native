@@ -137,8 +137,8 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-push-notification')
-    compile ('com.google.android.gms:play-services-gcm:8.1.0') {
+    implementation project(':react-native-push-notification')
+    implementation ('com.google.android.gms:play-services-gcm:8.1.0') {
         force = true;
     }
     implementation fileTree(dir: "libs", include: ["*.jar"])
